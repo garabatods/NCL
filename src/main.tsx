@@ -2,7 +2,6 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import {
   ArrowRight,
-  ChevronDown,
   Code2,
   Layers3,
   Menu,
@@ -161,9 +160,6 @@ function Hero() {
         </div>
       </div>
       <HeroVisual />
-      <div className="hero-cue" aria-hidden="true">
-        <ChevronDown size={24} strokeWidth={1.8} />
-      </div>
     </section>
   );
 }

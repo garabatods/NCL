@@ -154,8 +154,8 @@ a {
   grid-template-columns: minmax(0, 620px) minmax(430px, 1fr);
   gap: clamp(28px, 3vw, 42px);
   align-items: start;
-  min-height: 820px;
-  padding: 58px 0 72px;
+  min-height: 700px;
+  padding: 58px 0 36px;
 }
 
 .hero-copy {
@@ -444,19 +444,6 @@ h1::after,
   bottom: 20px;
 }
 
-.hero-cue {
-  position: absolute;
-  left: 50%;
-  bottom: 18px;
-  display: grid;
-  width: 36px;
-  height: 36px;
-  place-items: center;
-  color: var(--deep-navy);
-  transform: translateX(-50%);
-  opacity: 0.92;
-}
-
 .pixel-spark {
   position: relative;
   display: inline-block;
@@ -474,6 +461,10 @@ h1::after,
 
 .section-heading {
   margin-bottom: 38px;
+}
+
+#work {
+  padding-top: clamp(34px, 4vw, 54px);
 }
 
 .section-heading > p,
