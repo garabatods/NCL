@@ -1,4 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+@font-face {
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("./assets/Oxanium/Oxanium-VariableFont_wght.ttf") format("truetype");
+}
 
 :root {
   --deep-navy: #0d1423;
@@ -12,9 +18,11 @@
   --line: rgba(13, 20, 35, 0.15);
   --shadow: 0 22px 60px rgba(13, 20, 35, 0.12);
   --radius: 8px;
+  --font-body: "Oxanium", Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Oxanium", Inter, ui-sans-serif, system-ui, sans-serif;
   color: var(--deep-navy);
   background: var(--off-white);
-  font-family: "Space Grotesk", Inter, ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-body);
   font-synthesis: none;
   text-rendering: geometricPrecision;
 }
@@ -30,6 +38,7 @@ html {
 body {
   margin: 0;
   min-width: 320px;
+  overflow-x: hidden;
   background:
     linear-gradient(rgba(31, 107, 110, 0.045) 1px, transparent 1px),
     linear-gradient(90deg, rgba(31, 107, 110, 0.035) 1px, transparent 1px),
@@ -123,7 +132,7 @@ a {
   align-items: center;
   gap: clamp(24px, 4vw, 56px);
   font-size: 0.94rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .desktop-nav a,
@@ -151,7 +160,7 @@ a {
 .hero {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 620px) minmax(430px, 1fr);
+  grid-template-columns: minmax(0, 620px) minmax(390px, 1fr);
   gap: clamp(28px, 3vw, 42px);
   align-items: start;
   min-height: 700px;
@@ -171,7 +180,7 @@ a {
   margin-bottom: 36px;
   color: var(--deep-navy);
   font-size: 0.82rem;
-  font-weight: 500;
+  font-weight: 600;
   background: rgba(255, 253, 249, 0.75);
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -189,6 +198,28 @@ h2,
 h3,
 p {
   margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+.brand,
+.desktop-nav,
+.menu-button,
+.status-chip,
+.button,
+.micro-line,
+.cartridge-label,
+.stack-panel,
+.section-heading > p,
+.label,
+.step-number,
+.status-panel,
+.state,
+.footer-brand,
+.footer-bar,
+.logo-mark span {
+  font-family: var(--font-display);
 }
 
 h1 {
@@ -391,7 +422,7 @@ h1::after,
   gap: 12px;
   color: var(--deep-navy);
   font-size: clamp(0.76rem, 1.1vw, 0.98rem);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .stack-panel svg {
@@ -669,7 +700,7 @@ h1::after,
   padding: 7px 14px;
   color: var(--soft-cyan);
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   border: 1px solid rgba(110, 193, 212, 0.45);
   border-radius: 999px;
@@ -760,7 +791,6 @@ h1::after,
   align-items: center;
   min-height: 116px;
   padding: 24px 32px;
-  margin-bottom: 28px;
   color: var(--paper);
   background:
     linear-gradient(90deg, rgba(110, 193, 212, 0.08) 1px, transparent 1px),
@@ -871,10 +901,6 @@ h1::after,
   .stack-panel {
     right: 10%;
     width: min(30vw, 232px);
-  }
-
-  .hero-cue {
-    display: none;
   }
 
   .build-grid,
