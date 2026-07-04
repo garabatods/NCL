@@ -93,6 +93,7 @@ function Header() {
       <nav className="desktop-nav" aria-label="Primary navigation">
         <a href="#work">Work in progress</a>
         <a href="#studio">Studio</a>
+        <a href="/trip/">Trip planner</a>
         <a href="#contact">Contact</a>
       </nav>
       <button className="menu-button" type="button" aria-label="Open menu">
@@ -147,8 +148,8 @@ function Hero() {
           AI-enhanced execution.
         </p>
         <div className="hero-actions" aria-label="Hero actions">
-          <a className="button button--primary" href="#contact">
-            Follow the build <ArrowRight size={18} />
+          <a className="button button--primary" href="/trip/">
+            Open trip planner <ArrowRight size={18} />
           </a>
           <a className="button button--secondary" href="mailto:hello@neoncartridgelabs.com">
             Contact the lab <ArrowRight size={18} />
@@ -265,6 +266,7 @@ function ContactFooter() {
         <nav aria-label="Footer navigation">
           <a href="#work">Work in progress</a>
           <a href="#studio">Studio</a>
+          <a href="/trip/">Trip planner</a>
           <a href="#contact">Contact</a>
         </nav>
         <a href="https://neoncartridgelabs.com">neoncartridgelabs.com</a>
