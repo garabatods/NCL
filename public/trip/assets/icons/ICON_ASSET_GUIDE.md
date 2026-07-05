@@ -56,6 +56,18 @@ The generic files preserve the same semantic names and suggested uses as the def
 | `tag-priority.png` | Priority or important | Must-do flags, high-priority itinerary items |
 | `tag-flexible.png` | Flexible timing or movable plan | Flexible blocks, movable schedule items, buffer-friendly activities |
 
+## Generic Navbar Icons
+
+These are generic travel-planner icons intended for primary navigation. They are more compact than the tag icons and avoid Japan-specific motifs.
+
+| File | Meaning | Suggested Uses |
+| --- | --- | --- |
+| `nav-trip-generic.png` | Overall trip plan | Bottom nav or sidebar item for the full trip view |
+| `nav-day-generic.png` | Day-by-day schedule | Bottom nav or sidebar item for day view |
+| `nav-ideas-generic.png` | Saved ideas and brainstorming | Bottom nav or sidebar item for ideas |
+| `nav-map-generic.png` | Map and places | Bottom nav or sidebar item for map view |
+| `nav-expenses-generic.png` | Expenses and receipts | Bottom nav or sidebar item for expense tracking |
+
 ## Implementation Notes For Codex
 
 - These icons already include transparency. Do not add a background unless the UI needs one.
