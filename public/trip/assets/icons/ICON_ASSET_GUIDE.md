@@ -43,6 +43,7 @@ These generic-only additions extend the category set for trips that need more ac
 | `tag-nature-generic.png` | Nature and outdoors | Hikes, parks, scenic trails, gardens, and outdoor stops |
 | `tag-nightlife-generic.png` | Nightlife | Evening events, cocktails, clubs, live music, and late-night plans |
 | `tag-wellness-generic.png` | Wellness | Spas, yoga, pools, massage, rest, and self-care activities |
+| `tag-beauty-generic.png` | Beauty | Salons, skincare, makeup appointments, and beauty shopping |
 | `tag-entertainment-generic.png` | Entertainment | Shows, cinema, concerts, theater, and ticketed events |
 | `tag-family-generic.png` | Family | Kid-friendly ideas, family activities, and group outings |
 | `tag-adventure-generic.png` | Sport and adventure | Sports, active excursions, guided adventures, and challenge activities |
