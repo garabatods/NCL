@@ -93,7 +93,7 @@ function Header() {
       <nav className="desktop-nav" aria-label="Primary navigation">
         <a href="#work">Work in progress</a>
         <a href="#studio">Studio</a>
-        <a href="/trip/">Trip planner</a>
+        <a href="https://kumiplanner.app/">Trip planner</a>
         <a href="#contact">Contact</a>
       </nav>
       <button className="menu-button" type="button" aria-label="Open menu">
@@ -148,7 +148,7 @@ function Hero() {
           AI-enhanced execution.
         </p>
         <div className="hero-actions" aria-label="Hero actions">
-          <a className="button button--primary" href="/trip/">
+          <a className="button button--primary" href="https://kumiplanner.app/">
             Open trip planner <ArrowRight size={18} />
           </a>
           <a className="button button--secondary" href="mailto:hello@neoncartridgelabs.com">
@@ -266,7 +266,7 @@ function ContactFooter() {
         <nav aria-label="Footer navigation">
           <a href="#work">Work in progress</a>
           <a href="#studio">Studio</a>
-          <a href="/trip/">Trip planner</a>
+          <a href="https://kumiplanner.app/">Trip planner</a>
           <a href="#contact">Contact</a>
         </nav>
         <a href="https://neoncartridgelabs.com">neoncartridgelabs.com</a>
